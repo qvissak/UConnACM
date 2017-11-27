@@ -23,6 +23,10 @@ body {
   height: 100vh;
 }
 
+.App-subgroups {
+  
+}
+
 .App-avatars {
   display: flex;
   justify-content: space-around;

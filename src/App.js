@@ -9,22 +9,32 @@ class App extends Component {
   render () {
     return (
       <div className='App'>
+        {/* Landing Page */}
         <div className='App-landing'>
           <h1 className='App-welcome'>Welcome to UConn's ACM</h1>
           <img src={logo} className='App-logo' alt='logo' />
+          {/* Insert description here */}
         </div>
-		
+
+        {/* Subgroups */}
+        <div className='App-subgroups'>
+          {/* Insert subgroups + description + project links here */}
+        </div>
+
+        {/* Officers */}
         <h1 className='App-title'>Officers:</h1>
         <div className='App-avatars'>
           <Avatar name='Quinn Vissak' caption='Senior at the University of Connecticut. President of UConn ACM. Currently full stack developer at Squared Labs. Starting as a Mobile Software Engineer at WillowTree in June of 2018.' image={Quinn} />
           <Avatar name='Kyle Fujio' caption='Junior at the University of Connecticut. Vice-President of UConn ACM. Currently UConn Engineering tutor.' image={KyleFujio} />
-		</div>
+        </div>
 
+        {/* Members */}
         <h1 className='App-title'>Members:</h1>
         <div className='App-avatars'>
           {/* Insert avatars here */}
         </div>
 
+        {/* Footer */}
         <hr />
         <footer>Copyright University of Connecticut Association for Computing Machinery 2017</footer>
       </div>
