@@ -3,6 +3,7 @@ import Avatar from './components/Avatar/Avatar'
 import logo from './logo.svg'
 import Quinn from './util/RGQuinnHeadshot.JPG'
 import KyleFujio from './util/KyleFujio.png'
+import DylanPic from './util/dylan_picture.jpg'
 import './App.css'
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
         <h1 className='App-title'>Members:</h1>
         <div className='App-avatars'>
           {/* Insert avatars here */}
+		  <Avatar name='Dylan Brennan' caption='Junior at the University of Connecticut. Member of the database subgroup at ACM. Works in UITS web development. Fan of python and turkey.' image={DylanPic} />
         </div>
 
         {/* Footer */}
